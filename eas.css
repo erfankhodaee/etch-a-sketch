@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  width: 801px;
+  flex-wrap:wrap;
+  margin:  50px auto;
+
+}
+
+.container div{
+  border: 1px solid black;
+  
+  box-sizing: border-box;
+}
+
+.input-field{
+  text-align: center;
+}
